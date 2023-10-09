@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="assets/css/owl-custom.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <title>About</title>
+</head>
+
+<body class="about-wrapper">
+  <!--====== LOADER =====-->
+  <div class="loader"></div>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/accounts/media/LesCURaLS9qicjySCjAH_CO_logo.png"
+            alt="CO Home" width="150">
+        </a>
+        <button class="navbar-toggler d-lg-none shadow-none border-0 fs-4" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex d-none" id="collapsibleNavId">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Locations &amp; Menus <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="locations.html">Overview</a>
+                <a class="dropdown-item" href="charleston.html">Charleston</a>
+                <a class="dropdown-item" href="waverly.html">Charlotte - Waverly</a>
+                <a class="dropdown-item" href="charlotte.html">Charlotte - Park Road</a>
+                <a class="dropdown-item" href="myrtle-beach.html">Myrtle Beach</a>
+                <a class="dropdown-item" href="raleigh.html">Raleigh</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gift-cards.html">Gift Cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="press.html">Press</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Order Online <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="https://www.toasttab.com/co-park-rd-4201-park-rd-d/v3" target="_blank">Charlotte - Park
+                  Road</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-waverly-7416-waverly-walk-ave-suite-h-4/v3"
+                  target="_blank">Charlotte - Waverly</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-chs-340-king-st/v3" target="_blank">Charleston</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-sushi-myrtle-beach-3098-deville-st/v3" target="_blank">Myrtle
+                  Beach</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-raleigh-nc-101-park-at-n-hills-st/v3/"
+                  target="_blank">Raleigh</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="mobile-menu-wrapper d-xl-none">
+      <a href="#" class="mobile-menu-close"><i class="fa fa-times"></i></a>
+      <ul class="mobile-menu">
+
+        <li>
+          <a class="nav-link collapsible-link1" data-bs-toggle="collapse" href="#locationMenus" aria-expanded="false"
+            aria-controls="locationMenus">
+            Locations &amp; Menus <i class="fa fa-chevron-down"></i>
+          </a>
+          <div class="collapse collapsible1" id="locationMenus">
+            <ul>
+              <li>
+                <a class="nav-link" href="locations.html">Overview</a>
+              </li>
+              <li>
+                <a class="nav-link" href="charleston.html">Charleston</a>
+              </li>
+              <li>
+                <a class="nav-link" href="waverly.html">Charlotte - Waverly</a>
+              </li>
+              <li>
+                <a class="nav-link" href="charlotte.html">Charlotte - Park Road</a>
+              </li>
+              <li>
+                <a class="nav-link" href="myrtle-beach.html">Myrtle Beach</a>
+              </li>
+              <li>
+                <a class="nav-link" href="raleigh.html">Raleigh</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link active" href="about.html">About</a>
+        </li>
+        <li>
+          <a class="nav-link" href="gift-cards.html">Gift Cards</a>
+        </li>
+        <li>
+          <a class="nav-link" href="press.html">Press</a>
+        </li>
+        <li>
+          <a class="nav-link collapsible-link2" data-bs-toggle="collapse" href="#orderOnline" aria-expanded="false"
+            aria-controls="orderOnline">
+            Order Online <i class="fa fa-chevron-down"></i>
+          </a>
+          <div class="collapse collapsible2" id="orderOnline">
+            <ul>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-park-rd-4201-park-rd-d/v3" target="_blank">Charlotte - Park
+                  Road</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-waverly-7416-waverly-walk-ave-suite-h-4/v3"
+                  target="_blank">Charlotte - Waverly</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-chs-340-king-st/v3" target="_blank">Charleston</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-sushi-myrtle-beach-3098-deville-st/v3" target="_blank">Myrtle
+                  Beach</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-raleigh-nc-101-park-at-n-hills-st/v3/"
+                  target="_blank">Raleigh</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link" href="jobs.html">Jobs</a>
+        </li>
+        <li>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container-fluid px-0">
+        <div class="hero-meta">
+          <h4>About</h4>
+          <p>At CO, find uniquely inspired dishes with fresh, robust flavors and handcrafted cocktails.</p>
+
+        </div>
+        <div class="owl-carousel hero-slider">
+          <div class="item">
+            <img
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/ZIuO5gviSmCnWKVgWH49_Sushi 5.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+          <div class="item">
+            <img
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/9JeROAbURcakUdZ8TrYo_Ginger Julep.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+          <div class="item">
+            <img loading="lazy"
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/S4AMIXFOQOK64fFbKqoS_Vietnamese Ramen.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+          <div class="item">
+            <img loading="lazy"
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/h6QN32TxRRqvZyB66a6r_Vietnamese Chicken Salad.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+          <div class="item">
+            <img loading="lazy"
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/dZaLMxO2S300BFsOYWzd_DSC_0932.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+          <div class="item">
+            <img loading="lazy"
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/y2ceCn5HQCOyhHET1zHs_Hanoi Noodles.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+          <div class="item">
+            <img loading="lazy"
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/zTvAqof6SjLx26RebYwb_Green Papaya Salad.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+        </div>
+        <div class="owl_custom_nav">
+          <i class="am-prev am-nav fa fa-chevron-left" id="am-prev"></i>
+          <i class="am-next am-nav fa fa-chevron-right" id="am-next"></i>
+        </div>
+        <div class="scroll-next-section">
+          <a href="#scroll-next-section" class="btn"><i class="fa fa-chevron-down"></i></a>
+        </div>
+      </div>
+    </section>
+    
+    <div id="scroll-next-section" class="next-section-padding"></div>
+
+    <section class="food-section text-style" id="scroll-next-section"
+      style="background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(&quot;https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/62441Korean_Short_Rib_Bahn_Mi_Charlotte_Photo_Courtesy_of_CO.jpg?w=1200&amp;fit=max&amp;auto=compress,format&quot;);">
+      <div class="container">
+        <h2 class="h1">The Food</h2>
+
+        <p>Our menu is full of bright, bold flavors from Southeast Asia that everyone can enjoy. Explore new dishes or
+          taste
+          familiar ones; from noodles to pho, sushi to banh mi. &nbsp;</p>
+        <p>CO is designed to be a place for gathering. Taste fresh, robust flavors, and cheers with signature cocktails
+          made
+          from scratch, designed to pair perfectly with a variety of dishes on the menu. Gluten-free and vegan options
+          guarantee there’s something for everyone, every time you visit.</p>
+
+
+
+      </div>
+    </section>
+
+    <section class="man-behind-work-section text-style"
+      style="background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url(&quot;https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/30626masa_long.jpg?w=1200&amp;fit=max&amp;auto=compress,format&quot;);">
+      <div class="container">
+        <h2 class="h1">The Man Behind the Wok</h2>
+
+        <p>Chef Masanori Shiraishi cooks with soul. His blend of experience, enthusiasm, vigor and training is
+          responsible for the development of a menu fusing traditional and modern, innovative yet time-honored
+          offerings. Chef Masa joined the CO family in 2014 and has since utilized his 25 years culinary experience and
+          Japanese heritage to craft fresh, robust dishes with creative twists. Sourcing high-quality ingredients and
+          securing sustainable commodities from local purveyors are standards set by Chef Masa and practiced at each CO
+          restaurant.&nbsp;</p>
+        <p>Come give CO a try, where classic Southeast Asian dishes are seasoned with a spin from Chef Masa.</p>
+      </div>
+    </section>
+
+    <section class="space-section text-style"
+      style="background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,  url(&quot;https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/22264Charlotte_Interior.jpg?w=1200&amp;fit=max&amp;auto=compress,format&quot;);">
+      <div class="container">
+        <h2 class="h1">The Space</h2>
+
+        <p>Housed in spaces from a historic building in downtown Charleston to a modern, mixed-use development in
+          Charlotte, each location of CO emphasizes unique design. We utilize raw materials to create spaces that are
+          warm, inviting, and contemporary. With open windows, large community tables, and modern touches, you will find
+          a truly enlightened dining experience at CO.</p>
+
+
+
+
+
+
+      </div>
+    </section>
+
+    <section class="chef-section">
+      <div class="container-fluid px-0">
+        <div class="owl-carousel chef-slider">
+          <div class="item">
+            <img loading="lazy"
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/tXvHme8ReCYYyyjRNSQ9_father and son team94.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+          <div class="item">
+            <img loading="lazy"
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/mo7muwtCQK2Tw0kzZg9M_Sou Chef Perry 5.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+          <div class="item">
+            <img loading="lazy"
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/mX6Z84p1ReSsUM92RPOH_Staff.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+        </div>
+        <div class="owl_custom_nav">
+          <i class="am-prev am-nav fa fa-chevron-left" id="am-prev-chef"></i>
+          <i class="am-next am-nav fa fa-chevron-right" id="am-next-chef"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="chef-picture-section">
+
+      <div class="container-fluid px-0">
+        <div class="row gx-0">
+          <div class="col-lg-6">
+            <img
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/68333CO_Sushi_Lifestyle-39.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+          <div class="col-lg-6">
+            <img
+              src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/96653DSC_0056_2.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+              alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="d-flex desktop-sticky-menu gap-4">
+      <a class="nav-link" href="jobs.html">Jobs</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-inner">
+      <a href="https://www.collected.com/" target="_blank">
+        <img
+          src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/56113Asset_1.png?w=1200&amp;fit=max&amp;auto=compress,format|resize(786)"
+          class="False" loading="lazy" alt="text">
+      </a>
+    </div>
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

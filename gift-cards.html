@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="assets/css/owl-custom.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <title>Gift Card</title>
+</head>
+
+<body class="gift-card-wrapper">
+  <div class="desktop-header"></div>
+  <!--====== LOADER =====-->
+  <div class="loader"></div>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/accounts/media/LesCURaLS9qicjySCjAH_CO_logo.png"
+            alt="CO Home" width="150">
+        </a>
+        <button class="navbar-toggler d-lg-none shadow-none border-0 fs-4" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex d-none" id="collapsibleNavId">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Locations &amp; Menus <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="locations.html">Overview</a>
+                <a class="dropdown-item" href="charleston.html">Charleston</a>
+                <a class="dropdown-item" href="waverly.html">Charlotte - Waverly</a>
+                <a class="dropdown-item" href="charlotte.html">Charlotte - Park Road</a>
+                <a class="dropdown-item" href="myrtle-beach.html">Myrtle Beach</a>
+                <a class="dropdown-item" href="raleigh.html">Raleigh</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="gift-cards.html">Gift Cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="press.html">Press</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Order Online <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="https://www.toasttab.com/co-park-rd-4201-park-rd-d/v3" target="_blank">Charlotte - Park
+                  Road</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-waverly-7416-waverly-walk-ave-suite-h-4/v3"
+                  target="_blank">Charlotte - Waverly</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-chs-340-king-st/v3" target="_blank">Charleston</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-sushi-myrtle-beach-3098-deville-st/v3" target="_blank">Myrtle
+                  Beach</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-raleigh-nc-101-park-at-n-hills-st/v3/"
+                  target="_blank">Raleigh</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="mobile-menu-wrapper d-xl-none">
+      <a href="#" class="mobile-menu-close"><i class="fa fa-times"></i></a>
+      <ul class="mobile-menu">
+
+        <li>
+          <a class="nav-link collapsible-link1" data-bs-toggle="collapse" href="#locationMenus" aria-expanded="false"
+            aria-controls="locationMenus">
+            Locations &amp; Menus <i class="fa fa-chevron-down"></i>
+          </a>
+          <div class="collapse collapsible1" id="locationMenus">
+            <ul>
+              <li>
+                <a class="nav-link" href="locations.html">Overview</a>
+              </li>
+              <li>
+                <a class="nav-link" href="charleston.html">Charleston</a>
+              </li>
+              <li>
+                <a class="nav-link" href="waverly.html">Charlotte - Waverly</a>
+              </li>
+              <li>
+                <a class="nav-link" href="charlotte.html">Charlotte - Park Road</a>
+              </li>
+              <li>
+                <a class="nav-link" href="myrtle-beach.html">Myrtle Beach</a>
+              </li>
+              <li>
+                <a class="nav-link" href="raleigh.html">Raleigh</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li>
+          <a class="nav-link active" href="gift-cards.html">Gift Cards</a>
+        </li>
+        <li>
+          <a class="nav-link" href="press.html">Press</a>
+        </li>
+        <li>
+          <a class="nav-link collapsible-link2" data-bs-toggle="collapse" href="#orderOnline" aria-expanded="false"
+            aria-controls="orderOnline">
+            Order Online <i class="fa fa-chevron-down"></i>
+          </a>
+          <div class="collapse collapsible2" id="orderOnline">
+            <ul>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-park-rd-4201-park-rd-d/v3" target="_blank">Charlotte - Park
+                  Road</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-waverly-7416-waverly-walk-ave-suite-h-4/v3"
+                  target="_blank">Charlotte - Waverly</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-chs-340-king-st/v3" target="_blank">Charleston</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-sushi-myrtle-beach-3098-deville-st/v3" target="_blank">Myrtle
+                  Beach</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-raleigh-nc-101-park-at-n-hills-st/v3/"
+                  target="_blank">Raleigh</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link" href="jobs.html">Jobs</a>
+        </li>
+        <li>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </header>
+
+  <main>
+    <section id="intro" class="content c-intro container-sm revealable revealed">
+      <h1>Gift Cards</h1>
+      <h2><a href="https://www.toasttab.com/co-chs-340-king-st/giftcards" rel="noopener noreferrer"
+          target="_blank">CLICK TO PURCHASE AN E-CARD</a></h2>
+      <p>Email a CO card to a friend for 'now' or 'later'. Click the above link to purchase your card at any
+        value!&nbsp;</p>
+    </section>
+    <section id="form" class="content revealable revealed">
+      <section>
+
+        <form>
+          <div class="form-header">
+            <h2 class="h1 form-heading">Physical Gift Cards</h2>
+            <p>Your gift card will be mailed to the address indicated on the form below within 3-4 business days.
+              The gift card will never expire and is simple to redeem—just present after dining.</p>
+          </div>
+          <div class="form-ui">
+            <div class="row mx-0 mb-5">
+
+
+
+              <div class="form-group col-12">
+                <label for="physical-amount">
+                  <i class="error-label"></i>
+                  <span class="input-label">Select Amount
+                    <span class="input-label-required">- Required</span>
+                  </span>
+                  <div class="form-control-group has-icon-right">
+                    <select id="physical-amount" class="form-control unselected" name="amount" required="">
+                      <option value="" selected="" disabled="">Select Amount</option>
+                      <option value="25">$25</option>
+                      <option value="50">$50</option>
+                      <option value="75">$75</option>
+                      <option value="100">$100</option>
+                      <option value="200">$200</option>
+                    </select>
+                    <span class="form-control-group--icon is-positioned-right" aria-hidden="true">
+                      <i class="fa fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </label>
+              </div>
+
+
+              <div class="form-group col-12">
+                <label for="physical-recipient-name">
+                  <i class="error-label"></i>
+                  <span class="input-label">Recipient’s Name
+                    <span class="input-label-required">- Required</span>
+                  </span>
+                  <input id="physical-recipient-name" class="form-control" type="text" name="recipient_name"
+                    placeholder="Recipient’s Name" required="">
+                </label>
+              </div>
+
+
+              <div class="form-group col-12">
+                <label for="physical-recipient-street-address-1">
+                  <i class="error-label"></i>
+                  <span class="input-label">Recipient’s Street Address 1
+                    <span class="input-label-required">- Required</span>
+                  </span>
+                  <input id="physical-recipient-street-address-1" class="form-control" type="text"
+                    name="recipient_street_address_1" placeholder="Recipient’s Street Address 1" required="">
+                </label>
+              </div>
+
+              <div class="form-group col-12">
+                <label for="physical-recipient-street-address-2">
+                  <span class="input-label">Recipient’s Street Address 2</span>
+                  <input id="physical-recipient-street-address-2" class="form-control" type="text"
+                    name="recipient_street_address_2" placeholder="Recipient’s Street Address 2">
+                </label>
+              </div>
+
+              <div class="form-group col-12">
+                <label for="physical-recipient-city">
+                  <i class="error-label"></i>
+                  <span class="input-label">City
+                    <span class="input-label-required">- Required</span>
+                  </span>
+                  <input id="physical-recipient-city" class="form-control" type="text" name="recipient_city" placeholder="City" required="">
+                </label>
+              </div>
+
+
+              <div class="form-group col-12">
+                <label for="physical-recipient-state">
+                  <i class="error-label"></i>
+                  <span class="input-label">State
+                    <span class="input-label-required">- Required</span>
+                  </span>
+                  <div class="form-control-group has-icon-right">
+                    <select id="physical-recipient-state" class="form-control unselected" name="recipient_state"
+                      required="">
+                      <option value="" selected="" disabled="">State</option>
+                      <option value="AL">Alabama</option>
+                      <option value="AK">Alaska</option>
+                      <option value="AZ">Arizona</option>
+                      <option value="AR">Arkansas</option>
+                      <option value="CA">California</option>
+                      <option value="CO">Colorado</option>
+                      <option value="CT">Connecticut</option>
+                      <option value="DE">Delaware</option>
+                      <option value="DC">District Of Columbia</option>
+                      <option value="FL">Florida</option>
+                      <option value="GA">Georgia</option>
+                      <option value="HI">Hawaii</option>
+                      <option value="ID">Idaho</option>
+                      <option value="IL">Illinois</option>
+                      <option value="IN">Indiana</option>
+                      <option value="IA">Iowa</option>
+                      <option value="KS">Kansas</option>
+                      <option value="KY">Kentucky</option>
+                      <option value="LA">Louisiana</option>
+                      <option value="ME">Maine</option>
+                      <option value="MD">Maryland</option>
+                      <option value="MA">Massachusetts</option>
+                      <option value="MI">Michigan</option>
+                      <option value="MN">Minnesota</option>
+                      <option value="MS">Mississippi</option>
+                      <option value="MO">Missouri</option>
+                      <option value="MT">Montana</option>
+                      <option value="NE">Nebraska</option>
+                      <option value="NV">Nevada</option>
+                      <option value="NH">New Hampshire</option>
+                      <option value="NJ">New Jersey</option>
+                      <option value="NM">New Mexico</option>
+                      <option value="NY">New York</option>
+                      <option value="NC">North Carolina</option>
+                      <option value="ND">North Dakota</option>
+                      <option value="OH">Ohio</option>
+                      <option value="OK">Oklahoma</option>
+                      <option value="OR">Oregon</option>
+                      <option value="PA">Pennsylvania</option>
+                      <option value="RI">Rhode Island</option>
+                      <option value="SC">South Carolina</option>
+                      <option value="SD">South Dakota</option>
+                      <option value="TN">Tennessee</option>
+                      <option value="TX">Texas</option>
+                      <option value="UT">Utah</option>
+                      <option value="VT">Vermont</option>
+                      <option value="VA">Virginia</option>
+                      <option value="WA">Washington</option>
+                      <option value="WV">West Virginia</option>
+                      <option value="WI">Wisconsin</option>
+                      <option value="WY">Wyoming</option>
+                    </select>
+                    <span class="form-control-group--icon is-positioned-right" aria-hidden="true">
+                      <i class="fa fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </label>
+              </div>
+
+
+              <div class="form-group col-12">
+                <label for="physical-recipient-postal-code">
+                  <i class="error-label"></i>
+                  <span class="input-label">Zip Code
+                    <span class="input-label-required">- Required</span>
+                  </span>
+                  <input id="physical-recipient-postal-code" class="form-control" type="text"
+                    name="recipient_postal_code" placeholder="Zip Code" required="">
+                </label>
+              </div>
+
+            </div>
+            <div class="row mx-0">
+
+              <div class="form-group col-12">
+                <label for="physical-gifter">
+                  <i class="error-label"></i>
+                  <span class="input-label">Your Name
+                    <span class="input-label-required">- Required</span>
+                  </span>
+                  <input id="physical-gifter" class="form-control" type="text" name="gifter_name"
+                    placeholder="Your Name" required="">
+                </label>
+              </div>
+
+
+              <div class="form-group col-12">
+                <label for="physical-your-message">
+                  <span class="input-label">Your Message
+                    <span class="input-label-optional">- Optional</span>
+                  </span>
+                  <textarea id="physical-your-message" class="form-control" name="message" placeholder="Your Message"
+                    maxlength="250" rows="6"></textarea>
+                  <div id="physical-your-message-character-count-container" class="pull-right">
+                    <span id="physical-your-message-character-count">0</span>/250
+                  </div>
+                </label>
+              </div>
+
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Add to Cart</button>
+          </div>
+        </form>
+
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <div class="d-flex desktop-sticky-menu gap-4">
+      <a class="nav-link" href="jobs.html">Jobs</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-inner">
+      <a href="https://www.collected.com/" target="_blank">
+        <img
+          src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/56113Asset_1.png?w=1200&amp;fit=max&amp;auto=compress,format|resize(786)"
+          class="False" loading="lazy" alt="text">
+      </a>
+    </div>
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

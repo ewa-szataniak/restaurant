@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="assets/css/owl-custom.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <title>Locations</title>
+</head>
+
+<body class="about-wrapper press-wrapper locations-wrapper">
+  <!--====== LOADER =====-->
+  <div class="loader"></div>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/accounts/media/LesCURaLS9qicjySCjAH_CO_logo.png"
+            alt="CO Home" width="150">
+        </a>
+        <button class="navbar-toggler d-lg-none shadow-none border-0 fs-4" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex d-none" id="collapsibleNavId">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link active" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Locations &amp; Menus <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item active" href="locations.html">Overview</a>
+                <a class="dropdown-item" href="charleston.html">Charleston</a>
+                <a class="dropdown-item" href="waverly.html">Charlotte - Waverly</a>
+                <a class="dropdown-item" href="charlotte.html">Charlotte - Park Road</a>
+                <a class="dropdown-item" href="myrtle-beach.html">Myrtle Beach</a>
+                <a class="dropdown-item" href="raleigh.html">Raleigh</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gift-cards.html">Gift Cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="press.html">Press</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Order Online <i class="fa fa-chevron-down"></i></a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="https://www.toasttab.com/co-park-rd-4201-park-rd-d/v3" target="_blank">Charlotte - Park
+                  Road</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-waverly-7416-waverly-walk-ave-suite-h-4/v3"
+                  target="_blank">Charlotte - Waverly</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-chs-340-king-st/v3" target="_blank">Charleston</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-sushi-myrtle-beach-3098-deville-st/v3" target="_blank">Myrtle
+                  Beach</a>
+                <a class="dropdown-item" href="https://www.toasttab.com/co-raleigh-nc-101-park-at-n-hills-st/v3/"
+                  target="_blank">Raleigh</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="mobile-menu-wrapper d-xl-none">
+      <a href="#" class="mobile-menu-close"><i class="fa fa-times"></i></a>
+      <ul class="mobile-menu">
+
+        <li>
+          <a class="nav-link active collapsible-link1" data-bs-toggle="collapse" href="#locationMenus" aria-expanded="false"
+            aria-controls="locationMenus">
+            Locations &amp; Menus <i class="fa fa-chevron-down"></i>
+          </a>
+          <div class="collapse collapsible1" id="locationMenus">
+            <ul>
+              <li>
+                <a class="nav-link active" href="locations.html">Overview</a>
+              </li>
+              <li>
+                <a class="nav-link" href="charleston.html">Charleston</a>
+              </li>
+              <li>
+                <a class="nav-link" href="waverly.html">Charlotte - Waverly</a>
+              </li>
+              <li>
+                <a class="nav-link" href="charlotte.html">Charlotte - Park Road</a>
+              </li>
+              <li>
+                <a class="nav-link" href="myrtle-beach.html">Myrtle Beach</a>
+              </li>
+              <li>
+                <a class="nav-link" href="raleigh.html">Raleigh</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li>
+          <a class="nav-link" href="gift-cards.html">Gift Cards</a>
+        </li>
+        <li>
+          <a class="nav-link" href="press.html">Press</a>
+        </li>
+        <li>
+          <a class="nav-link collapsible-link2" data-bs-toggle="collapse" href="#orderOnline" aria-expanded="false"
+            aria-controls="orderOnline">
+            Order Online <i class="fa fa-chevron-down"></i>
+          </a>
+          <div class="collapse collapsible2" id="orderOnline">
+            <ul>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-park-rd-4201-park-rd-d/v3" target="_blank">Charlotte - Park
+                  Road</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-waverly-7416-waverly-walk-ave-suite-h-4/v3"
+                  target="_blank">Charlotte - Waverly</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-chs-340-king-st/v3" target="_blank">Charleston</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-sushi-myrtle-beach-3098-deville-st/v3" target="_blank">Myrtle
+                  Beach</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://www.toasttab.com/co-raleigh-nc-101-park-at-n-hills-st/v3/"
+                  target="_blank">Raleigh</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link" href="jobs.html">Jobs</a>
+        </li>
+        <li>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </header>
+
+  <main>
+
+    <section class="press-listing">
+
+      <div class="container">
+
+        <div class="row card-listing g-sm-5 gy-5" id="scroll-next-section">
+          <div class="col-xl-4 col-lg-6">
+            <a class="listing-item" href="charleston.html">
+              <img loading="lazy" class="img-fluid"
+                src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/eCKbdCkYTFe6abR9dDs5_Charleston 2.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+                alt="">
+              <h3 class="h2 card__heading">Charleston</h3>
+            </a>
+          </div>
+          <div class="col-xl-4 col-lg-6">
+            <a class="listing-item" href="waverly.html">
+              <img loading="lazy" class="img-fluid"
+                src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/hdaTgaVSmq3ta0x1u6Et_Co Sitting Area 1.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+                alt="">
+              <h3 class="h2 card__heading">Charlotte - Waverly</h3>
+            </a>
+          </div>
+          <div class="col-xl-4 col-lg-6">
+            <a class="listing-item" href="charlotte.html">
+              <img loading="lazy" class="img-fluid"
+                src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/LumPUWLWQzSKgL2lGTGM_Charlotte Interior 1.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+                alt="">
+              <h3 class="h2 card__heading">Charlotte - Park Road</h3>
+            </a>
+          </div>
+          <div class="col-xl-4 col-lg-6">
+            <a class="listing-item" href="myrtle-beach.html">
+              <img loading="lazy" class="img-fluid"
+                src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/g81tCLsATjKNNfuc5Qra_Myrtle Beach.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+                alt="">
+              <h3 class="h2 card__heading">Myrtle Beach</h3>
+            </a>
+          </div>
+          <div class="col-xl-4 col-lg-6">
+            <a class="listing-item" href="raleigh.html">
+              <img loading="lazy" class="img-fluid"
+                src='https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/mediausers/custom_fields_galleries/images/ATh86JRFSa6JtkH5W7vv_DSC03755.jpg?w=1200&amp;fit=max&amp;auto=compress,format'
+                alt="">
+              <h3 class="h2 card__heading">Raleigh</h3>
+            </a>
+          </div>
+        </div>
+        <div class="paginator load-more mt-5 pt-4">
+          <button class="btn btn-primary">Load More <span class="sr-only">Press Articles</span></button>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="d-flex desktop-sticky-menu gap-4">
+      <a class="nav-link" href="jobs.html">Jobs</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-inner">
+      <a href="https://www.collected.com/" target="_blank">
+        <img
+          src="https://images.getbento.com/accounts/23237ff810e65dc174922ac5dc1342cb/media/images/56113Asset_1.png?w=1200&amp;fit=max&amp;auto=compress,format|resize(786)"
+          class="False" loading="lazy" alt="text">
+      </a>
+    </div>
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

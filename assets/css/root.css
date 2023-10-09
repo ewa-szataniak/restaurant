@@ -1,0 +1,14 @@
+:root{
+  --body-bg: #000000;
+  --dropdown-bg: rgba(200, 48, 51, 0.9);
+  --primary-bg: #e32526;
+  --black-bg: #000000;
+  
+  
+  --primary-text: #e32526;
+  --body-text: #000000;
+  --white-text: #ffffff;
+  --black-text: #000000;
+  
+  --home-slider-height: calc(100vh - 100px);
+}
